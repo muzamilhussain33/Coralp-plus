@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link  } from 'react-router-dom';
 import TopToBottom from '../lib/TopToBottom.js';
+import whatsappicon from "../assets/whatsappicon.png";
 
 function BackToTop({ className }) {
     useEffect(() => {
@@ -9,8 +10,10 @@ function BackToTop({ className }) {
 
     return (
         <>
-            <div className={`scroll-to-top ${className || ''}`}>
-                <Link  to="#">
+            
+            <div className={`scroll-to-top d-flex flex-column align-items-center gap-2${className || ''}`}>
+                <Link to="https://wa.me/971588996975"><img className="whatsapp" src={whatsappicon}/>'</Link>
+                <Link className='scrol-top-btn' to="#">
                     <i className="fa fa-angle-up" style={{ color: '#fff' }} />
                 </Link >
             </div>
