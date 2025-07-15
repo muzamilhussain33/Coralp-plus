@@ -8,6 +8,7 @@ import logo3 from "../../assets/images/logo3.png"
 import StickyMenu from '../../lib/StickyMenu';
 import Navigation from '../Navigation.jsx';
 import MobileMenu from '../MobileMenu.jsx';
+import logo6 from "../../assets/images/logo6.png"
 
 function Header({ action, className, scroll }) {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -96,7 +97,7 @@ function Header({ action, className, scroll }) {
                 <nav className="menu-box">
                     <div className="upper-box">
                         <div className="nav-logo">
-                            <Link  to="/"><img src={logo4} alt="Oitech" title="Oitech" /></Link >
+                            <Link  to="/"><img src={logo6} alt="Oitech" title="Oitech" /></Link >
                             {/* <Link className='ml-15'  to="/"><img src={logo5} alt="Oitech" /></Link > */}
                         </div>
                         <div className="close-btn" onClick={closeMobileMenu}>
