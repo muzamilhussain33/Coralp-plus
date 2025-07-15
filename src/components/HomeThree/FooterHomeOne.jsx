@@ -61,7 +61,7 @@ function FooterHomeOne({ className }) {
                                 <div className="widget-content">
                                     <div className="text fs-5">Deira, Dubai, U.A.E.</div>
                                     <ul className="contact-info">
-                                        <li><i className="fa fa-envelope"></i> <Link to="mailto:hr.callbackcrew@gmail.com">Sales@coralplus.ae</Link ></li>
+                                        <li><i className="fa fa-envelope"></i> <Link to="mailto:Sales@coralplus.ae">Sales@coralplus.ae</Link ></li>
                                         <li><i className="fa fa-phone-square"></i> <Link to="tel:+971588996975">+971588996975</Link >
                                             {/* <Link className='ml-10' to="tel:+971588838616">+971588838616</Link > */}
                                         </li>

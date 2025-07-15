@@ -973,10 +973,14 @@ Scroll To Top style
 }
 .scrol-top-btn{
   background-color: var(--theme-color2);
-  width: 60px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
   /* padding: 20px; */
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
   border-radius: 50%;
 }
 
