@@ -83,7 +83,7 @@ function ContactSectionTwo() {
                 <span className="icon fa fa-check"></span>
                 <h5 className="title">OUR VISION</h5>
                 <div className="text">
-                  To be the most valued & preferred service provider for all our clients
+                  To be the most valued & preferred <a href="tel:+971588996975" ><i className="fab fa-whatsapp"></i> Chat with us</a> provider for all our clients
                 </div>
               </div>
             </div>
