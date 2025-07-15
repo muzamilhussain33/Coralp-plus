@@ -99,7 +99,7 @@ const MobileMenu = () => {
            {/* <li><a href="/company-profile.pdf" download>
   Download Company Profile (PDF)
 </a></li> */}
-           <li><PDFViewer /></li> 
+           <li><PDFViewer className="text-light"/></li> 
         </ul>
 
         </>

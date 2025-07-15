@@ -6,9 +6,9 @@ function PDFViewer() {
       <div className="text-white text-[30px]">Company Profile</div>
       <div>
         {/* Download PDF */}
-        <a href={companyProfile} download>
+        <a href={companyProfile} download className="text-muted">
           {/* <button className="px-4 py-2 text-white bg-transparent hover:text-blue-400 rounded-md transition"> */}
-            Download PDF
+            Download
           {/* </button> */}
         </a>
 
@@ -16,9 +16,9 @@ function PDFViewer() {
          &nbsp;&nbsp;
 
         {/* View in New Tab */}
-        <a href={companyProfile} target="_blank" rel="noopener noreferrer">
+        <a href={companyProfile} target="_blank" rel="noopener noreferrer" className="text-muted ">
           {/* <button className="px-4 py-2 text-white bg-transparent hover:text-blue-300 rounded-md transition"> */}
-            View Online
+            View
           {/* </button> */}
         </a>
       </div>
