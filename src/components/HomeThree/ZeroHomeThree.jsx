@@ -30,11 +30,12 @@ function BannerSectionTwo({ className }) {
             <section className={`banner-section-two ${className || ''}`} id='home'>
                 <Swiper {...swiperOptions} className="banner-carousel owl-theme">
                     {/* Slide Item 1 */}
-                    <SwiperSlide className="slide-item">
-                        <div className="bg-image" style={{ backgroundImage: `url(${Image1})`, filter: "blur(2px)"}}></div>
+                    {/* <SwiperSlide className="slide-item"> */}
+                    <div className="slide-item">
+                        <div className="bg-image" style={{ backgroundImage: `url(${Image1})`, filter: "blur(5px)"}}></div>
                         <div className="auto-container ">
                             <div className="content-box">
-                                <span className="animate-2 text-warning fs-5 ">Your Security is our First Priority</span>
+                                <span className="animate-2 texxt fs-5 ">Your Security is our First Priority</span>
                                 <h1 className="title animate-3">Security and IT Solutions for Home & Business</h1>
                                 
                                 <div className="btn-box animate-4">
@@ -43,10 +44,11 @@ function BannerSectionTwo({ className }) {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide>
+                    </div>    
+                    {/* </SwiperSlide> */}
 
                     {/* Slide Item 2 */}
-                    <SwiperSlide className="slide-item">
+                    {/* <SwiperSlide className="slide-item">
                         <div className="bg-image" style={{ backgroundImage: `url(${Image2})`, filter: "blur(2px)" }}></div>
                         <div className="auto-container">
                             <div className="content-box">
@@ -58,7 +60,7 @@ function BannerSectionTwo({ className }) {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                 </Swiper>
             </section>
             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
