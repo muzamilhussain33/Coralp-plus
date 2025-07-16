@@ -1,16 +1,7 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo.png';
 import logo1 from "../../assets/images/logo3.png"
 import Image1 from '../../assets/images/background/2.jpg';
-import Image2 from '../../assets/images/background/4.jpg'
-import Portfolio1 from '../../assets/images/resource/project-thumb-1.jpg';
-import Portfolio2 from '../../assets/images/resource/project-thumb-2.jpg';
-import Portfolio3 from '../../assets/images/resource/project-thumb-3.jpg';
-import Portfolio4 from '../../assets/images/resource/project-thumb-4.jpg';
-import Portfolio5 from '../../assets/images/resource/project-thumb-5.jpg';
-import Portfolio6 from '../../assets/images/resource/project-thumb-6.jpg';
-import MapSection from "../HomeOne/Map";
+
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
