@@ -29,8 +29,9 @@ function ChooseUs() {
                                         within a flexible and cost-effective business model that meets our customer’s needs.
                                         Highly Qualified and well-trained Engineers and technicians
                                         Updated technology and equipment to satisfy our customers' needs.
-                                        All Kinds of Approvals related to our system from Govt agencies without any delay or
-                                        any risk to the clients.
+                                        We design and install CCTV & ELV systems in full compliance with SIRA standards, helping clients meet Dubai’s security requirements.
+                                        {/* All Kinds of Approvals related to our system from Govt agencies without any delay or
+                                        any risk to the clients. */}
                                         {/* We view ourselves as a vital part of each of our client’s teams and know our success
                                         hinges on them being successful. We have worked with many of our clients for years and
                                         attribute our high client retention rate to our response to their needs and consistent dedication

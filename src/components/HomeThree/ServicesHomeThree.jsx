@@ -88,14 +88,14 @@ function ServicesHomeThree({ className }) {
 						</div>
 					</div>
 
-					<div className="service-block-three col wow fadeInUp ">
+					{/* <div className="service-block-three col wow fadeInUp ">
 						<div className="inner-box">
 							<img src={icon13} className='icon p-10 ' alt="" />
 							<h6 className="title"><Link>SIRA APPROVALS </Link ></h6>
 							<div className="text">NOC/ AMC <br/>
 								New or existing licenses</div>
 						</div>
-					</div>
+					</div> */}
 
 					<div className="service-block-three col wow fadeInUp ">
 						<div className="inner-box">
@@ -170,7 +170,7 @@ function ServicesHomeThree({ className }) {
 						<div className="inner-box">
 							<img src={icon10} className='icon p-10 ' alt="" />
 							<h6 className="title"><Link>ALARM <br/>SYSTEM</Link ></h6>
-							<div className="text">Grade 3 Integra, Sira Appoved System </div>
+							<div className="text">Grade 3 Integra </div>
 						</div>
 					</div>
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
