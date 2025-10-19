@@ -20,8 +20,9 @@ function FooterHomeOne({ className }) {
                                 <div className="logo">
                                     <Link to="/"><img src={logo1} alt="Logo" /></Link >
                                 </div>
-                                <div className="text fs-5">To deliver the best reliable solution in IT infrastructures, security systems, ELV solutions,
-                                    and help our clients to improve business efficiency.</div>
+                                {/* <div className="text fs-5">To deliver the best reliable solution in IT infrastructures, security systems, ELV solutions,
+                                    and help our clients to improve business efficiency.</div> */}
+                                    <div className="text fs-5">All solutions and installations are designed in accordance with SIRA standards and Dubai security regulations.</div>
                                 {/* <ul className="social-icon-two">
                                     <li><Link  to="#"><i className="fab fa-twitter"></i></Link ></li>
                                     <li><Link  to="#"><i className="fab fa-facebook"></i></Link ></li>
@@ -56,6 +57,7 @@ function FooterHomeOne({ className }) {
                                         <li><i className="fa fa-phone-square"></i> <Link to="tel:+971588996975">+971588996975</Link >
                                             {/* <Link className='ml-10' to="tel:+971588838616">+971588838616</Link > */}
                                         </li>
+                                        <li><i className='fa fa-building'></i>Registered Office: Mohammed bin Hamad bin Saif Al Rumhi Building – Deira – Al Muteena, C4 – Office No. 102</li>
                                     </ul>
                                 </div>
                             </div>
@@ -95,7 +97,7 @@ function FooterHomeOne({ className }) {
             <div className="footer-bottom ">
                 <div className="auto-container d-flex justify-content-center bg-transparent">
                     <div className="inner-container">
-                        <div className="copyright-text">&copy; Copyright reserved by <Link to="/">coralplus.ae</Link ></div>
+                        <div className="copyright-text">&copy; 2025 Coral Plus Security Systems LLC. All rights reserved. <Link to="/">coralplus.ae</Link ></div>
                     </div>
                 </div>
             </div>

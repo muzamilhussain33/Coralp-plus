@@ -16,7 +16,7 @@ function AboutHomeThree({ className }) {
                                     <span className="sub-title">About Our Company</span>
                                     <h2 className='fs-1'>IT INFRASTRUCTURES | SECURITY SYSTEMS | ELV SOLUTIONS</h2>
                                     <div className="text">
-                                        We are Coral Plus Security, A name in IT infrastructures, Security Systems SIRA approvals,
+                                        We are Coral Plus Security, A name in IT infrastructures , Security Systems
                                         and ELV Solution providers in the U.A.E. Founded by a team of talented and
                                         achievement-oriented professionals. We strive to balance leading-edge technology with
                                         highly skilled resources to deliver cost-effective, reliable, and secure solutions that meet
