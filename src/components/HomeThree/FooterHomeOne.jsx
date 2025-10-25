@@ -19,11 +19,12 @@ function FooterHomeOne({ className }) {
                             <div className="footer-widget about-widget">
                                 <div className="logo">
                                     <Link to="/"><img src={logo1} alt="Logo" /></Link >
+                                    <span className='text-sm ml-sm-90 ml-70   '>License No. 323886</span>
                                 </div>
                                 {/* <div className="text fs-5">To deliver the best reliable solution in IT infrastructures, security systems, ELV solutions,
                                     and help our clients to improve business efficiency.</div> */}
                                     <div className="text fs-5">Disclaimer !<br/>All solutions and installations are designed in accordance with SIRA standards and Dubai security regulations.<br/>
-                                    <span>Trade License identifier: DED License 1323886</span>
+                                    
                                     </div>
                                 {/* <ul className="social-icon-two">
                                     <li><Link  to="#"><i className="fab fa-twitter"></i></Link ></li>
@@ -59,7 +60,7 @@ function FooterHomeOne({ className }) {
                                         <li><i className="fa fa-phone-square"></i> <Link to="tel:+971588996975">+971588996975</Link >
                                             {/* <Link className='ml-10' to="tel:+971588838616">+971588838616</Link > */}
                                         </li>
-                                        <li><i className='fa fa-building'></i>Registered Office: Mohammed bin Hamad bin Saif Al Rumhi Building – Deira – Al Muteena, C4 – Office No. 102</li>
+                                        <li className=''><i className='fa fa-building '></i><p className='fs-6 text-white'>Registered Office: Mohammed bin Hamad bin Saif Al Rumhi Building – Deira – Al Muteena, C4 – Office No. 102</p></li>
                                     </ul>
                                 </div>
                             </div>
