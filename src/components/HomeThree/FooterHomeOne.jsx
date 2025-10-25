@@ -22,7 +22,9 @@ function FooterHomeOne({ className }) {
                                 </div>
                                 {/* <div className="text fs-5">To deliver the best reliable solution in IT infrastructures, security systems, ELV solutions,
                                     and help our clients to improve business efficiency.</div> */}
-                                    <div className="text fs-5">All solutions and installations are designed in accordance with SIRA standards and Dubai security regulations.</div>
+                                    <div className="text fs-5">Disclaimer !<br/>All solutions and installations are designed in accordance with SIRA standards and Dubai security regulations.<br/>
+                                    <span>Trade License identifier: DED License 1323886</span>
+                                    </div>
                                 {/* <ul className="social-icon-two">
                                     <li><Link  to="#"><i className="fab fa-twitter"></i></Link ></li>
                                     <li><Link  to="#"><i className="fab fa-facebook"></i></Link ></li>
