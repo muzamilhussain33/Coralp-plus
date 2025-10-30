@@ -90,7 +90,7 @@ function ContactSectionTwo() {
           </div>
 
           {/* Form Column */}
-          <div className="form-column col-xl-5 col-lg-6 col-md-12 col-sm-12">
+          {/* <div className="form-column col-xl-5 col-lg-6 col-md-12 col-sm-12">
             <div className="inner-column">
               <div className="contact-form light wow fadeInLeft">
                 <div className="title-box">
@@ -159,15 +159,13 @@ function ContactSectionTwo() {
                       type="submit"
                       name="submit-form"
                     >
-                      {/* <CgMail className="mr-2" />
-                      <FaWhatsapp className="mr-2" /> */}
                       <span className="btn-title">Send Message</span>
                     </button>
                   </div>
                 </form>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

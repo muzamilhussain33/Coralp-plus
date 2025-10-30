@@ -60,7 +60,7 @@ function FooterHomeOne({ className }) {
                                         <li><i className="fa fa-phone-square"></i> <Link to="tel:+971588996975">+971588996975</Link >
                                             {/* <Link className='ml-10' to="tel:+971588838616">+971588838616</Link > */}
                                         </li>
-                                        <li className=''><i className='fa fa-building '></i><p className='fs-6 text-white'>Registered Office: Mohammed bin Hamad bin Saif Al Rumhi Building 102-C4, Muteena, Deira, Dubai.</p></li>
+                                        <li className=''><i className='fa fa-building '></i><p className='fs-6 text-white'>102-C4, Muteena, Deira, Dubai.</p></li>
                                     </ul>
                                 </div>
                             </div>
