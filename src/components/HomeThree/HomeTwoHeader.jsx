@@ -50,7 +50,7 @@ function Header({ action, className, scroll }) {
 
                         <div className="top-right">
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope"></i> <Link  to="mailto:Sales@coralplus.ae">Sales@coralplus.ae</Link ></li>
+                                <li><i className="fa fa-envelope"></i> <Link  to="mailto:info@coralplus.ae">info@coralplus.ae</Link ></li>
                                 <li><i className="fa fa-map-marker"></i> Deira, Dubai, U.A.E.</li>
                             </ul>
                         </div>
@@ -119,7 +119,7 @@ function Header({ action, className, scroll }) {
                             <div className="contact-info-box">
                                 <span className="icon lnr-icon-envelope1"></span>
                                 <span className="title">Send Email</span>
-                                <a href="mailto:Sales@coralplus.ae">Sales@coralplus.ae</a>
+                                <a href="mailto:info@coralplus.ae">info@coralplus.ae</a>
                             </div>
                         </li>
                         {/* <li> */}
